@@ -41,5 +41,7 @@ def pingTest(hostname, count):
     
 if __name__ == "__main__":
     results = pingTest ("www.google.com", 5)
-    print results
+    print 
+    resultsfetchLatency = fetch("http://www.google.com")
+    print "fetch latency = {} ms".format(fetchLatency)
   
