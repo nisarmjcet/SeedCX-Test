@@ -37,4 +37,9 @@ def pingTest(hostname, count):
         sum = sum + i         
         average = sum/count
     return average
-        
+   
+    
+if __name__ == "__main__":
+    results = pingTest ("www.google.com", 5)
+    print results
+  
